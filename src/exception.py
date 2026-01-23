@@ -1,5 +1,5 @@
 import sys  #sys module in Python provides tools for handling and inspecting exceptions, particularly in scenarios involving unhandled errors or low-level debugging
-
+from src.logger import logging
 
 
 
@@ -21,3 +21,5 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
+    
+
